@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(224, 224, 224);
+    padding-top: 100px;
+}
+#nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#nav-bar ul{
+    width : 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#header{
+    display: block;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(29, 135, 255);
+    color: rgb(59, 62, 231);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+#header-img{
+    width: 3%;
+    display: flex;
+}
+.container {
+    background-color: #010101;
+    display: block;
+}
+#video{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#video_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+
+}
